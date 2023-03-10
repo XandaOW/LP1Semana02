@@ -7,8 +7,7 @@ namespace ManipulaVar
         static void Main(string[] args)
         {
             int x = int.Parse(args[0]);
-            x++;
-            Console.WriteLine(x);
+            Console.WriteLine(--x);
         }
     }
 }
