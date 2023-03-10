@@ -11,8 +11,8 @@ namespace PerguntaValores
             int a = int.Parse( Console.ReadLine());
             Console.WriteLine("insira raio:");
             int r = int.Parse( Console.ReadLine());
-            double pi = 3.1415926;
-            double V = pi * (r*r) * a;
+            double pi = Math.PI;
+            double V = pi * Math.Pow(r,2) * a;
             double Sa = 2*pi*r*(r+a);
 
 
